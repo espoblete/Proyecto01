@@ -2,7 +2,6 @@
     background-color: #000000;
 }
 
-
 .nav-enlace1 {
     padding: 10px 30px;
     color: #ffffff;
@@ -12,11 +11,29 @@
     background-color: #ff0000;
     align-self: center;
     margin: 10px;
-
-
+}
+.div-enlaces1{
+    padding:0 20px
 }
 
-.nav-enlaces1:hover {
+.nav-enlace1:hover {
     background-color: #7fff00;
     color: #000000;
+}
+
+@media (max-width: 1180px){
+    .nav1 {
+        width: fit-content;
+    }
+}
+
+@media (max-width: 576px){
+    .div-enlaces1{
+        flex-direction: column;
+      
+        }
+    .nav-enlace1{
+        max-width:576px;
+
+    }   
 }
