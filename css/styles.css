@@ -1,39 +1,13 @@
-.nav1 {
-    background-color: #000000;
+body{
+    font-family: 'Square Peg', cursive;
+    font-size: 35px;
 }
-
-.nav-enlace1 {
-    padding: 10px 30px;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: x-large;
-    border-radius: 18px;
-    background-color: #ff0000;
-    align-self: center;
-    margin: 10px;
+.navbar-brand{
+    font-size: 35px;
 }
-.div-enlaces1{
-    padding:0 20px
+.generos{
+    font-size: 35px;
 }
-
-.nav-enlace1:hover {
-    background-color: #7fff00;
-    color: #000000;
-}
-
-@media (max-width: 1180px){
-    .nav1 {
-        width: fit-content;
-    }
-}
-
-@media (max-width: 576px){
-    .div-enlaces1{
-        flex-direction: column;
-      
-        }
-    .nav-enlace1{
-        max-width:576px;
-
-    }   
+.titulo1{
+    font-size: 50px ;
 }

@@ -6,27 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto01</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Proyecto01/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="nav1 d-flex justify-content-between">
-        <div><a href="#" class="nav-enlaces1-logo"><img src="/Proyecto01/img/logo_l.png" alt="logo" width="300px"></a></div>
-        <div class="div-enlaces1 d-flex">
-            <a href="#" class="nav-enlace1">Inicio</a>
-            <a href="#" class="nav-enlace1">Descargas</a>
-            <a href="#" class="nav-enlace1">Nosotros</a>
-            <a href="#" class="nav-enlace1">Contacto</a>
-            <a href="#" class="nav-enlace1"><i class="fa-solid fa-bars"></i></a></div>
-    </nav>
 
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-dark bg-black border-2 border-bottom border-dark">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand"><img src="/Proyecto01/img/logo_l.png" alt="logo"
+                            width="300px">Librería
+                        Subterránea</a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#menu-navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="menu-navbar" class="collapse navbar-collapse text-white">
+                        <ul class="list-unstyled navbar-nav ms-3">
+                            <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Descargas</a></li>
+                            <li class="nav-item dropdown"></li>
+                        </ul>
+                        <a class="text-decoration-none" href="#" role="button" data-bs-toggle="dropdown">Géneros</a>
+                        <ul
+                            class="generos bg-black border-2 border-bottom border-dark dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#"></a>Acción</li>
+                            <li><a class="dropdown-item" href="#"></a>Comics</li>
+                            <li><a class="dropdown-item" href="#"></a>Gastronomía</li>
+                            <li><a class="dropdown-item" href="#"></a>Infantil</li>
+                            <li><a class="dropdown-item" href="#"></a>Romance</li>
+                            <li><a class="dropdown-item" href="#"></a>Suspenso</li>
+                            <li><a class="dropdown-item" href="#"></a>Terror</li>
+                            <li><a class="dropdown-item" href="#"></a>Viajes</li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="d-flex flex-column">
+            <div class="titulo1 align-items-center">Librería Subterránea</div>
+            <div class="titulo1">"Escribir es la manera más popular de leer la vida"</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/974d0a103b.js" crossorigin="anonymous"></script>
+            <form action="#" method="post">
+                <div>
+                    <label for="email">Pregunta por tu e-book preferido, ingresando tu correo electrónico:</label>
+                    <input type="email" id="email" size="50">                
+                <button type="submit">Enviar</button>
+            </div>
+            </form> 
+        </div>
+        </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
