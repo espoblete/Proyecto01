@@ -16,83 +16,157 @@
 <body>
 
     <header>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-md navbar-dark bg-black border-dark">
-                <div class="container-fluid">
-                    <a href="#" class=" nav1 navbar-brand"><img src="/Proyecto01/img/logo_l.png" alt="logo"
-                            width="300px">Librería Subterránea</a>
-                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
-                        data-bs-target="#menu-navbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div id="menu-navbar" class="collapse navbar-collapse text-white">
-                        <ul class="list-unstyled navbar-nav ms-3">
-                            <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Descargas</a></li>
-                            <li class="nav-item dropdown"></li>
-                        </ul>
-                        <a class="text-decoration-none" href="#" role="button" data-bs-toggle="dropdown">Géneros</a>
-                        <ul
-                            class="generos bg-black border-2 border-bottom border-dark dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="#"></a>Acción</li>
-                            <li><a class="dropdown-item" href="#"></a>Comics</li>
-                            <li><a class="dropdown-item" href="#"></a>Gastronomía</li>
-                            <li><a class="dropdown-item" href="#"></a>Infantil</li>
-                            <li><a class="dropdown-item" href="#"></a>Romance</li>
-                            <li><a class="dropdown-item" href="#"></a>Suspenso</li>
-                            <li><a class="dropdown-item" href="#"></a>Terror</li>
-                            <li><a class="dropdown-item" href="#"></a>Viajes</li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        <nav class="navbar navbar-dark bg-black border-dark">
+            <div class="header-div">
+                <a href="#" class="nav1 navbar-brand"><img src="/Proyecto01/img/logo_l.png" alt="logo"
+                        width="300px">Librería Subterránea</a>
+                <button class="button-nav"><i class="fa-solid fa-bars"></i></button>
+                <a class="nav-a" href="#">Inicio</a>
+                <a class="nav-a" href="#">Nosotros</a>
+                <a class="nav-a" href="#">Catálogo</a>
+                <a class="nav-a" href="#">Contacto</a>
+            </div>
+        </nav>
         <div class="div1 d-flex flex-column text-center text-white">
-            <p></p>
             <div class="titulo1">"Escribir es la manera más popular de leer la vida"</div>
-            <p></p>
-            <p></p>
             <form action="#" method="post">
                 <div>
-                    <label class="label1 text-white" for="email">Si quieres preguntar por tu libro preferido,<p> ingresa tu correo
-                        electrónico:</p></label>
+                    <label class="label1 text-white" for="email">Si quieres preguntar por tu libro preferido,<p> ingresa
+                            tu correo electrónico:</p></label>
                     <p><input class="input1 border border-danger text-white" type="email" id="email" size="20">
                         <button class="button1 border border-success text-black" type="submit">Enviar</button>
                     </p>
                 </div>
             </form>
-        </div>  
+        </div>
     </header>
 
-    <article class=" article1 bg-black d-grid">
+    <article class=" article1 bg-black p-5">        
         <h2 class="article1-h2 text-lg-center text-md-center text-sm-center">Los más leídos:</h2>
-        <div class="article1a d-flex"><img src="/Proyecto01/img/libro1.webp" alt="libro1"><h2 class="h2-libros-item">Tren Bala<p class="p-libros-item">Kotaro Isaka</p></h2></div>
-        <div class="article1b d-flex"><img src="/Proyecto01/img/libro2.webp" alt="libro2"><h2 class="h2-libros-item">El pecador de Oxford<p class="p-libros-item">Mar Petrik</p></h2></div>
-        <div class="article1c d-flex"><img src="/Proyecto01/img/libro3.png" alt="libro3"><h2 class="h2-libros-item">El caso Christie<p class="p-libros-item">Nina de Gramont</p></h2></div>
-        <div class="article1d d-flex" ><img src="/Proyecto01/img/libro4.webp" alt="libro4"><h2 class="h2-libros-item">Sombras verdes, ballenas blancas<p class="p-libros-item">Ray Bradbury</p></h2></div>
-        <div class="article1e d-flex"><img src="/Proyecto01/img/libro5.webp" alt="libro5"><h2 class="h2-libros-item">Ni la música me consuela<p class="p-libros-item">Camila Gutiérrez</p></h2></div>
-        <div class="article1f d-flex"><img src="/Proyecto01/img/libro6.webp" alt="libro6"><h2 class="h2-libros-item">Mentes peligrosas<p class="p-libros-item">Gwenda Bond</p></h2></div>
-        <div class="article1g d-flex"><img src="/Proyecto01/img/libro7.webp" alt="libro7"><h2 class="h2-libros-item">Una breve historia de casi todo<p class="p-libros-item">Bill Gryson</p></h2></div>
-        <div class="article1h d-flex"><img src="/Proyecto01/img/libro8.webp" alt="libro8"><h2 class="h2-libros-item">Lamentables datos animales<p class="p-libros-item">Brooke Barkner</p></h2></div>
-
-
+        <div class="row">
+        <div class="col-12 mb-3 col-md-6 col-lg-4 d-flex"><img src="/Proyecto01/img/libro1.webp" alt="libro1">
+            <h2 class="h2-libros-item">Tren Bala<p class="p-libros-item">Kotaro Isaka</p>
+            </h2>
+        </div>
+        <div class="col-12 mb-3 col-md-6 col-lg-4 d-flex"><img src="/Proyecto01/img/libro2.webp" alt="libro2">
+            <h2 class="h2-libros-item">El pecador de Oxford<p class="p-libros-item">Mar Petrik</p>
+            </h2>
+        </div>
+        <div class="col-12 mb-3 col-md-6 col-lg-4 d-flex"><img src="/Proyecto01/img/libro3.png" alt="libro3">
+            <h2 class="h2-libros-item">El caso Christie<p class="p-libros-item">Nina de Gramont</p>
+            </h2>
+        </div>
+        <div class="col-12 mb-3 col-md-6 col-lg-4 d-flex"><img src="/Proyecto01/img/libro4.webp" alt="libro4">
+            <h2 class="h2-libros-item">Sombras verdes, ballenas blancas<p class="p-libros-item">Ray Bradbury</p>
+            </h2>
+        </div>
+        <div class="col-12 mb-3 col-md-6 col-lg-4 d-flex"><img src="/Proyecto01/img/libro5.webp" alt="libro5">
+            <h2 class="h2-libros-item">Ni la música me consuela<p class="p-libros-item">Camila Gutiérrez</p>
+            </h2>
+        </div>
+        <div class="col-12 mb-3 col-md-6 col-lg-4 d-flex"><img src="/Proyecto01/img/libro6.webp" alt="libro6">
+            <h2 class="h2-libros-item">Mentes peligrosas<p class="p-libros-item">Gwenda Bond</p>
+            </h2>
+        </div>
+        <div class="col-12 mb-3 col-md-6 col-lg-4 d-flex"><img src="/Proyecto01/img/libro7.webp" alt="libro7">
+            <h2 class="h2-libros-item">Una breve historia de casi todo<p class="p-libros-item">Bill Bryson</p>
+            </h2>
+        </div>
+        <div class="col-12 mb-3 col-md-6 col-lg-4 d-flex"><img src="/Proyecto01/img/libro8.webp" alt="libro8">
+            <h2 class="h2-libros-item">Lamentables datos animales<p class="p-libros-item">Brooke Barkner</p>
+            </h2>
+        </div>
+    </div>
     </article>
 
-    <article>
-
+    <article class="article2 d-grid">
+        <div class="div20">
+            <div class="article2-div2">¡Promociones y Ofertas!</div>
+        </div>
+        <div class="div2b"><img src="" alt=""></div>
+        <div class="div2c"><img src="" alt=""></div>
+        <div class="div2d"><img src="" alt=""></div>
+        <div class="div2e"><img src="" alt=""></div>
     </article>
 
-    <article>
+    <!-- <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the second item's accordion body.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> 
+                </div>
+            </div>
+        </div>
+    </div> -->
 
-    </article>
-
-    <footer>
-
+    <footer class="pie bg-black d-flex justify-content-between align-items-baseline">
+        <div class="pie-div1 p-5"><i class="fa-brands fa-facebook"></i> <i
+                class="pie-div1a fa-brands fa-facebook-messenger"></i> <i class="pie-div1b fa-brands fa-instagram"></i>
+            <i class="pie-div1a fa-brands fa-twitter"></i> <i class="fa-brands fa-tiktok"></i>
+        </div>
+        <div class="pie-div2">
+            <div>
+                <ul class="pie-ul1">Ayuda
+                    <li class="pie-items-u">f.a.q.</li>
+                    <li class="pie-items">Precios</li>
+                    <li class="pie-items">Despachos</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="pie-ul1">Nosotros
+                    <li class="pie-items">About</li>
+                    <li class="pie-items">Blog</li>
+                    <li class="pie-items">Trabajos</li>
+                    <li class="pie-items">Prensa</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="pie-ul1">Legal
+                    <li class="pie-items">Privacidad</li>
+                    <li class="pie-items">Términos y condiciones</li>
+                </ul>
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/974d0a103b.js" crossorigin="anonymous"></script>
 
 </body>
 
