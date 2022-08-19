@@ -20,6 +20,10 @@ body {
 
 }
 
+.div0{
+    box-sizing: border-box;
+    min-width: 100vh;
+}
 .nav-a {
     display: inline-block;
     border-radius: 20px;
@@ -165,7 +169,7 @@ body {
 
 
 
-@media screen and (max-width: 1079px) {
+@media (max-width: 1079px) {
     .header-div {
         flex-wrap: wrap;
     }
@@ -177,11 +181,19 @@ body {
     }
 }
 
-@media screen and (max-width:976px) {
+@media (max-width:976px) {
     .escondido{
         font-size: 30px;
     }
+    .article2-div2 {
+        width: 50%;
+        font-size: 30px;
+    }
+    .article2-p {
+        font-size: 20px;
+    }
 }
+
 
 
 @media (max-width: 703px) {
@@ -197,12 +209,3 @@ body {
     }
 }
 
-@media (max-width: 976) {
-    .article2-div2 {
-        width: 50%;
-        font-size: 30px;
-    }
-    .article2-p {
-        font-size: 20px;
-    }
-}
