@@ -75,9 +75,8 @@ body {
 
 .article1-h2 {
     color: #4400ff;
-    font-size: 120px;
-    grid-column: 1/13;
-    grid-row: 1/2;
+    font-size: 100px;
+   
 
 }
 
@@ -114,6 +113,7 @@ body {
     margin: 10px;
     color: #08f848;
     font-size: 50px;
+    list-style: none;
 }
 
 .article2-p {
@@ -169,7 +169,23 @@ body {
 
 
 
-@media (max-width: 1079px) {
+
+
+
+ 
+
+
+@media screen and (max-width: 1090px){
+    .article2-div2{
+        width: 450px;
+    }
+    .article2-p{
+        margin: 0 20px;
+    }
+}
+
+
+@media screen and (max-width: 1079px) {
     .header-div {
         flex-wrap: wrap;
     }
@@ -179,33 +195,40 @@ body {
     .div1 {
         padding: 40px 20px
     }
+   
 }
 
-@media (max-width:976px) {
-    .escondido{
-        font-size: 30px;
-    }
+@media screen and (max-width:976px) {
+    
+   
     .article2-div2 {
         width: 50%;
-        font-size: 30px;
+        font-size: 60px;
     }
     .article2-p {
-        font-size: 20px;
+        font-size: 60px;
     }
 }
 
-
-
-@media (max-width: 703px) {
+@media screen and (max-width: 703px) {
     .titulo1 {
         font-size: 40px;
         margin-top: 0;
     }
-    .div1 {
-        padding: 40px 20px
-    }
+ 
     .label1 {
         font-size: 40px;
     }
+    
 }
 
+@media screen and (max-width: 600px){
+    .titulo1 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+ 
+    .label1 {
+        font-size: 30px;
+    }
+}
